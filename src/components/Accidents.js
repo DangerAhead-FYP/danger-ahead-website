@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
 
-export default function Accidents() {
+export default function Accidents(props) {
   return (
-    <div><Navbar/></div>
+    <div>
+      <Navbar active={props.active}/>
+    </div>
   )
 }

@@ -16,10 +16,10 @@ function App() {
       <div>
         <div>
           <Routes>
-            <Route exact path="/" element={<Home />} active="home"/>
-            <Route exact path="/accidents" element={<Accidents />} active="accidents"/>
-            <Route exact path="/analysis" element={<Analysis />} active="analysis"/>
-            <Route exact path="/markaccidents" element={<Markaccidents/>} active="markaccidents"/>               
+            <Route exact path="/" element={<Home active="home"/>} />
+            <Route exact path="/accidents" element={<Accidents active="accidents"/>} />
+            <Route exact path="/analysis" element={<Analysis active="analysis"/>} />
+            <Route exact path="/markaccidents" element={<Markaccidents active="markaccidents"/>} />               
           </Routes>
         </div>
 
