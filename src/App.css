@@ -24,9 +24,23 @@
 }
 
 /* Font Size  */
+.f-60{
+  font-size: 60px;
+}
 .f-30{
   font-size: 30px;
 }
 .f-20{
   font-size: 20px;
+}
+
+/* Buttons  */
+.red-btn{
+  color: white;
+  background-color: #E6432D;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 7px 15px;
 }
