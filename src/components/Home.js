@@ -8,7 +8,6 @@ export default function Home(props) {
     <div>
         <Navbar active={props.active}/>
         <Hero/>
-        {/* <Card/> */}
     </div>
   )
 }
