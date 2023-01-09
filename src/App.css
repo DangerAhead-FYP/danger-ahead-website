@@ -64,3 +64,12 @@
   border-radius: 8px;
   padding: 5px 20px;
 }
+.red-btn-outline-coloured{
+  color: #E6432D;
+  background-color: #FFE5E2;
+  font-family: 'Poppins', sans-serif;
+  border: 1.5px solid #E6432D;
+  border-radius: 8px;
+  padding: 1px 18px;
+  font-size: 12px;
+}
