@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
+import Card from './Card'
 import Hero from './Hero'
 
 export default function Home(props) {
@@ -7,6 +8,7 @@ export default function Home(props) {
     <div>
         <Navbar active={props.active}/>
         <Hero/>
+        {/* <Card/> */}
     </div>
   )
 }

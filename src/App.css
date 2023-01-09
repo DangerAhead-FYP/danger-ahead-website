@@ -24,14 +24,17 @@
 }
 
 /* Font Size  */
-.f-60{
-  font-size: 60px;
+.f-50{
+  font-size: 50px;
 }
-.f-30{
-  font-size: 30px;
+.f-22{
+  font-size: 22px;
 }
 .f-20{
   font-size: 20px;
+}
+.f-14{
+  font-size: 14px;
 }
 
 /* Buttons  */
@@ -40,7 +43,7 @@
   background-color: #E6432D;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
   padding: 7px 15px;
 }
