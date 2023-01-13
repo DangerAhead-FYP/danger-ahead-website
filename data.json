@@ -13,15 +13,7 @@
         "NumberOfInjured": 4,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        
-        "VictimData": [
-          {
-            "name": "Name of the victim",
-            "homeAddress": "NJP Bhaktinagar",
-            "contact": 7001252846,
-            "URL": "Image_of the victim"
-          }
-        ],
+
         "SuggestionData": [
           {
             "MeasuresToPrevent": "Long description ",
