@@ -9,7 +9,7 @@ export default function Navbar(props) {
         <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
                 <img className='logo-img' src={logo} alt="danger-ahead-logo"/>
-                <Link to="/" className="navbar-brand inter soft-black f-30">Danger Ahead</Link>
+                <Link to="/" className="navbar-brand inter soft-black f-22">Danger Ahead</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>

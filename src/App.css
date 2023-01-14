@@ -22,16 +22,28 @@
 .grey{
   color:#3a3a3a;
 }
+.light-grey{
+  color: #626262;
+}
+.dark-grey{
+  color:#494848;
+}
 
 /* Font Size  */
-.f-60{
-  font-size: 60px;
+.f-50{
+  font-size: 50px;
 }
-.f-30{
-  font-size: 30px;
+.f-22{
+  font-size: 22px;
 }
 .f-20{
   font-size: 20px;
+}
+.f-14{
+  font-size: 14px;
+}
+.f-12{
+  font-size: 12px;
 }
 
 /* Buttons  */
@@ -40,7 +52,24 @@
   background-color: #E6432D;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
   padding: 7px 15px;
+}
+.red-btn-outline{
+  color: #E6432D;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  border: 1.5px solid #E6432D;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+.red-btn-outline-coloured{
+  color: #E6432D;
+  background-color: #FFE5E2;
+  font-family: 'Poppins', sans-serif;
+  border: 1.5px solid #E6432D;
+  border-radius: 8px;
+  padding: 1px 18px;
+  font-size: 12px;
 }
