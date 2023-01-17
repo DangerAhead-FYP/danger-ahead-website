@@ -3,7 +3,7 @@ import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 export default function Maps() {
     const { isLoaded } = useLoadScript({
-        googleMapsApiKey: "AIzaSyD1V9-RUmRrhgitMMiErcCkNTN0heri1os",
+        googleMapsApiKey: "AIzaSyA3prL43ZX9ygKDdF-YjKoDXQVWHV-A95g",
     });
     if (!isLoaded) return <div>Map is Loading...</div>;
     return <Map />;
@@ -11,7 +11,7 @@ export default function Maps() {
 function Map() {
     return (
         <div>
-            <h2 className="text-center p-5" id="colorfix"> You </h2>
+            <h2 className="text-center p-5" id="colorfix"> The Map </h2>
             <GoogleMap
                 zoom={10}
                 center={{ lat: 10.894421705347245, lng: 76.99704007070052 }}
