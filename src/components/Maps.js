@@ -1,25 +1,50 @@
-import React from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import React, { Fragment } from "react";
+import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+const containerStyle = {
+    width: "100%",
+    height: "720px",
+};
 
-export default function Maps() {
-    const { isLoaded } = useLoadScript({
-        googleMapsApiKey: "AIzaSyA3prL43ZX9ygKDdF-YjKoDXQVWHV-A95g",
+const center = {
+    lat: 10.894421705347245,
+    lng: 76.99704007070052
+};
+const Maps = () => {
+    const { isLoaded } = useJsApiLoader({
+        id: "google-map-script",
+        googleMapsApiKey: "AIzaSyAObG5o48uk0MFpkCkpebOzF1vHt07M-TI",
     });
-    if (!isLoaded) return <div>Map is Loading...</div>;
-    return <Map />;
-}
-function Map() {
+
+    const [map, setMap] = React.useState(null);
+
+    const onLoad = React.useCallback(function callback(map) {
+        const bounds = new window.google.maps.LatLngBounds(center);
+        map.fitBounds(bounds);
+        setMap(map);
+    }, []);
+
+    const onUnmount = React.useCallback(function callback(map) {
+        setMap(null);
+    }, []);
+
     return (
-        <div>
-            <h2 className="text-center p-5" id="colorfix"> The Map </h2>
-            <GoogleMap
-                zoom={10}
-                center={{ lat: 10.894421705347245, lng: 76.99704007070052 }}
-                mapContainerClassName="map-container"
-            >
-                <Marker position={{ lat: 10.894421705347245, lng: 76.99704007070052 }} label="HIT Hospital" />
-            </GoogleMap>
-            ;
+        <div >
+            {isLoaded ? (
+                <GoogleMap
+                    mapContainerStyle={containerStyle}
+                    center={center}
+                    zoom={18}
+                    onLoad={onLoad}
+                    onUnmount={onUnmount}
+                >
+                    {/* Child components, such as markers, info windows, etc. */}
+                    <></>
+                </GoogleMap>
+            ) : (
+                <></>
+            )}
         </div>
     );
-}
+};
+
+export default Maps;

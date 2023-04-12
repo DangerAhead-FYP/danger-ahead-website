@@ -8,7 +8,7 @@ export default function Analysis(props) {
     <div>
       <Navbar active={props.active} />
       <Card_Warnings />
-      <Card_Accidents />
+      {/* <Card_Accidents /> */}
     </div>
   )
 }
