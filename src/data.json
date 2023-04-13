@@ -1,0 +1,199 @@
+{
+    "data": [
+      {
+        "id":0,
+        "x": 26.689099867793526, 
+        "y": 88.4345954681539,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:18 PM",
+        "NumberOfInjured": 2,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+      },
+      {
+        "id":1,
+        "x": 26.689075903411243, 
+        "y": 88.43468934546304,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+      },
+      {
+        "id":2,
+        "x": 26.688323419244437, 
+        "y": 88.43472153196903,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+      },
+      {"id":3,
+      "x": 26.68866371524731, 
+      "y": 88.43461424361574,
+      "URL": "Possible_image_of_the_accident",
+      "title": "Car Accident",
+      "desc": "Description about the accident",
+      "eventDate" :"24-02-23",
+      "eventTime" : "12:08 PM",
+      "NumberOfInjured": 4,
+      "LevelOfAccident" : "Criticle",
+      "Mode": "Car-Car",
+      "SuggestionData": [
+        {
+          "MeasuresToPrevent": "Long description ",
+          "ResponisbleFor": "Street Lights",
+          "contact": 7001252846
+        }
+      ],
+      "RoadData": [
+        {
+          "StreetsLight": "yes",
+          "TrafficLights": "No",
+          "TrafficOfficer": "No",
+          "RoadCondition": "very poor"
+        }
+      ]
+    },
+    {
+      "id":4,
+        "x": 26.68833300506125,
+        "y":  88.43562275413672,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+    },
+    {
+      "id":5,
+        "x":26.688960874308815,
+        "y":  88.43838811149891,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+    },
+    {
+      "id":6,
+        "x":26.68903516395245, 
+        "y": 88.43839884033424,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+    }
+    ]
+  }
