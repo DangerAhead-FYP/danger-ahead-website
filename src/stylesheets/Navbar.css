@@ -29,3 +29,8 @@
     background-color: #c21c06;
     color: white;
 }
+@media(max-width:450px){
+    .container-fluid{
+        padding: 10px;
+    }
+}
