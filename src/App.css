@@ -33,6 +33,9 @@
 .f-50{
   font-size: 50px;
 }
+.f-30{
+  font-size: 30px;
+}
 .f-22{
   font-size: 22px;
 }
@@ -64,7 +67,11 @@
   border-radius: 8px;
   padding: 5px 20px;
 }
-.red-btn-outline-coloured{
+.red-btn-outline:hover{
+  color: white;
+  background-color: #E6432D;
+}
+.red-btn-outline-colored{
   color: #E6432D;
   background-color: #FFE5E2;
   font-family: 'Poppins', sans-serif;
