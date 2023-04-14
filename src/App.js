@@ -5,9 +5,9 @@ import {
   Route
 } from "react-router-dom";
 
-import Home from "../src/components/Home"
-import Accidents from "../src/components/Accidents"
-import Analysis from "../src/components/Analysis"
+import Home from "../src/components/Home/Home"
+import Accidents from "./components/Accidents/Accidents"
+import Analysis from "./components/Analysis/Analysis"
 import Markaccidents from "../src/components/Markaccidents"
 
 function App() {

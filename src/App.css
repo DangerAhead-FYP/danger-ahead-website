@@ -66,6 +66,7 @@
   border: 1.5px solid #E6432D;
   border-radius: 8px;
   padding: 5px 20px;
+  text-align: center;
 }
 .red-btn-outline:hover{
   color: white;
@@ -79,4 +80,7 @@
   border-radius: 8px;
   padding: 1px 18px;
   font-size: 12px;
+  text-align: center;
 }
+
+

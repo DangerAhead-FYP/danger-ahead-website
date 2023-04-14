@@ -1,0 +1,36 @@
+#appbody
+{
+    background-color: #edb9af40;
+    padding: 23px;
+}
+.card
+{
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: max-content;
+    height: auto;
+    margin-bottom: 10px;
+    margin: 1vh;
+    box-shadow: 0px 30.8833px 20px 5px rgb(0 0 0 / 6%);
+    border: none;
+}
+.card .card-img{
+    border-radius: 13px 13px 0 0;
+}
+.card .accstatuspic{
+    width: 95%;
+    margin: auto;
+}
+.card .accstatus-col{
+    /* width: 30%; */
+    margin: auto;
+}
+.card .card-img-top{
+    background-color: #F6AD86;
+    border-radius: 10px 10px 0 0;
+    box-shadow: none;
+    padding: 0;
+    height: 10vh;
+}
+

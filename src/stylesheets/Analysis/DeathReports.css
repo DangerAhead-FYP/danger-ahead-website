@@ -1,0 +1,19 @@
+#death-reports{
+    /* background: linear-gradient(rgba(255,255,255,90), rgba(255,255,255,.05)), url(../../images/deathReports.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 70%;
+}
+#death-reports-stats li.title .red-btn-outline{
+    font-size: 25px;
+    border: 2px solid #E6432D;
+}
+#death-reports-stats li.stats{
+    font-size: 25px;
+    padding: 10px;
+}
+#death-reports-stats li.stats .icon{
+    margin:  0 15px ;
+}

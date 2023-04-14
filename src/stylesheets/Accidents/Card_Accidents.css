@@ -1,0 +1,12 @@
+.card-accidents{
+    width: 300px;
+    /* height: 330px; */
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-accidents .card-img-top{
+    height:auto;
+}
+.card-accidents .card-body{
+    padding: 18px;
+}
