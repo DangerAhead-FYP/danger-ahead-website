@@ -10,6 +10,7 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:18 PM",
         "NumberOfInjured": 2,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [
@@ -38,6 +39,7 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [
@@ -66,6 +68,7 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [
@@ -93,7 +96,8 @@
       "eventDate" :"24-02-23",
       "eventTime" : "12:08 PM",
       "NumberOfInjured": 4,
-      "LevelOfAccident" : "Criticle",
+      "NumberOfDeaths": 2,
+      "LevelOfAccident" : "Critical",
       "Mode": "Car-Car",
       "SuggestionData": [
         {
@@ -121,6 +125,7 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [
@@ -149,6 +154,7 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [
@@ -177,6 +183,36 @@
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
+        "LevelOfAccident" : "Criticle",
+        "Mode": "Car-Car",
+        "SuggestionData": [
+          {
+            "MeasuresToPrevent": "Long description ",
+            "ResponisbleFor": "Street Lights",
+            "contact": 7001252846
+          }
+        ],
+        "RoadData": [
+          {
+            "StreetsLight": "yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "very poor"
+          }
+        ]
+    },
+    {
+      "id":7,
+        "x":26.769290864950857, 
+        "y": 88.37616388253649,
+        "URL": "Possible_image_of_the_accident",
+        "title": "Car Accident",
+        "desc": "Description about the accident",
+        "eventDate" :"24-02-23",
+        "eventTime" : "12:08 PM",
+        "NumberOfInjured": 4,
+        "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
         "SuggestionData": [

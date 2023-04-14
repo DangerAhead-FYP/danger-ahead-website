@@ -11,15 +11,16 @@ import accident_img from "../images/accident-img.png"
 import { MdLocationOn } from 'react-icons/md';
 import { SlCalender } from 'react-icons/sl';
 import { AiOutlineClockCircle } from 'react-icons/ai';
+import Card_Accidents from "./Card_Accidents";
 
 const containerStyle = {
     width: "100%",
-    height: "100vh",
+    height: "90vh",
 };
 
 const center = {
-    lat: 26.688315262877015,
-    lng: 88.4347097728035,
+    lat: 26.769290864950857,
+    lng: 88.37616388253649,
 };
 
 const Maps = () => {
@@ -30,7 +31,7 @@ const Maps = () => {
         googleMapsApiKey: "AIzaSyAObG5o48uk0MFpkCkpebOzF1vHt07M-TI",
     });
 
-    const [map, setMap] = React.useState(null);
+    const [map, setMap] = useState(null);
 
     const onLoad = React.useCallback(function callback(map) {
         const bounds = new window.google.maps.LatLngBounds(center);
@@ -78,33 +79,11 @@ const Maps = () => {
                             onCloseClick={() => {
                                 setSelectedAcci(null)
                             }}
+                            // options={{}}
                         >
-                            <div className="card">
-                                <img
-                                    className="card-img-top"
-                                    src={accident_img}
-                                    alt="Card image cap"
-                                />
-                                <div className="card-body">
-                                    <div className="row">
-                                        <div className="col-7">
-                                            <h6 className='f-20 inter mb-0'>
-                                                {selectedAcci.title}
-                                            </h6>
-                                            <p className='fw-semibold f-12 light-grey'><span className='orange'><MdLocationOn /></span>
-                                                Venus More, Siliguri</p>
-                                        </div>
-                                        <div className="col-5">
-                                            <button className='button red-btn-outline'>Details</button>
-                                        </div>
-                                    </div>
-                                    <p className='habibi f-12 grey lh-sm'>{selectedAcci.desc}</p>
-                                    <p className='habibi f-12 light-grey lh-sm mb-0'>Number of Injured : {selectedAcci.NumberOfInjured}</p>
-                                    <p className='habibi f-12 light-grey lh-sm'>Number of Deaths : 1 </p>
-                                    <p className='fw-semibold f-12 dark-grey mb-0'><span><SlCalender /></span>
-                                        &nbsp; {selectedAcci.eventDate}&nbsp; <span><AiOutlineClockCircle /></span>&nbsp;{selectedAcci.eventTime}</p>
-                                </div>
-                            </div>
+
+                        <Card_Accidents title={selectedAcci.title} desc={selectedAcci.desc} no_injured={selectedAcci.NumberOfInjured} no_deaths={selectedAcci.NumberOfDeaths} date={selectedAcci.eventDate} time={selectedAcci.eventTime}/>    
+
                         </InfoWindowF>
                     )}
                 </GoogleMap>
