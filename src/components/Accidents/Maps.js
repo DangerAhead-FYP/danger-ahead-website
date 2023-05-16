@@ -14,39 +14,28 @@ const containerStyle = {
     height: "90vh",
 };
 
-const center = {
-    lat: 26.769290864950857,
-    lng: 88.37616388253649,
-};
-// const currL ={
+// let center = {
+//     lat: 26.769290864950857,
+//     lng: 88.37616388253649,
+// };
 
+// const [center, setCenter] = useState({
+//     lat: 26.769290864950857,
+//     lng: 88.37616388253649,
+// })
+
+// function Locate() {
+
+//     return (
+
+//     )
 // }
-function Locate({ const: center }) {
-    return (
-        <button
-            className="curr"
-            onClick={() => {
-                navigator.geolocation.getCurrentPosition(
-                    (position) => {
-                        console.log(position);
-                        const currL = {
-                            lat: position.coords.latitude,
-                            lng: position.coords.longitude
-                        }
-                        console.log(currL)
-                        currL = center;
-                        // setCurr(currL)
-                    },
-                    () => null
-                )
-            }}
-        >
-            <img className="currI" src={curr} sizes="20px" />
-        </button>
-    )
-}
-const libraries = ["places"]
+const libraries = ["places"]/*  */
 const Maps = () => {
+    const [center, setCenter] = useState({
+        lat: 26.769290864950857,
+        lng: 88.37616388253649,
+    })
     const [selectedAcci, setSelectedAcci] = useState(null);
 
     const { isLoaded } = useJsApiLoader({
@@ -56,7 +45,7 @@ const Maps = () => {
     });
 
     const [map, setMap] = useState(null);
-    const [currL, setCurr] = useState(center);
+    // const [currL, setCurr] = useState(center);
 
     const onLoad = React.useCallback(function callback(map) {
         const bounds = new window.google.maps.LatLngBounds(center);
@@ -78,7 +67,7 @@ const Maps = () => {
                     onLoad={onLoad}
                     onUnmount={onUnmount}
 
-                // options={{ styles: mapStyles,  }}
+                // options={{ styles: mapStyles, }}
                 >
                     {
                         acci.data.map((acci) => {
@@ -118,7 +107,44 @@ const Maps = () => {
             ) : (
                 <></>
             )}
-            <Locate />
+            {/* <Locate /> */}
+            <div>
+                <button
+                    className="curr"
+                    // onClick={() => {
+                    //     navigator.geolocation.getCurrentPosition(
+                    //         (position) => {
+                    //             console.log(position);
+                    //             const currL = {
+                    //                 lat: position.coords.latitude,
+                    //                 lng: position.coords.longitude
+                    //             }
+                    //             console.log(currL)
+                    //             setCenter(currL)
+
+                    //         },
+                    //         () => null
+                    //     )
+                    // }}
+                    onLoad={() => {
+                        navigator.geolocation.getCurrentPosition(
+                            (position) => {
+                                console.log(position);
+                                const currL = {
+                                    lat: position.coords.latitude,
+                                    lng: position.coords.longitude
+                                }
+                                console.log(currL)
+                                setCenter(currL)
+
+                            },
+                            () => null
+                        )
+                    }}
+                >
+                    <img className="currI" src={curr} sizes="20px" />
+                </button>
+            </div>
 
         </div>
     );
