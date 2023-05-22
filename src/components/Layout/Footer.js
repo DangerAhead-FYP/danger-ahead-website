@@ -9,7 +9,7 @@ export default function Footer() {
              <footer id="footer text-white text-center">
         <div className="container">
           <div className="row pt-5 poppins">
-            <div className="col sm">
+            <div className="col-sm-4 col-12">
               <h5 className="footerparahead poppins f-20 text-white mb-3">
                 <b>More To Explore</b>
               </h5>
@@ -38,7 +38,7 @@ export default function Footer() {
                
               </ul>
             </div>
-            <div className="col sm">
+            <div className="col-sm-4 col-12">
               <h5 className="footerparahead poppins f-20 text-white mb-3">
                 <b>Quick Links</b>
               </h5>
@@ -66,9 +66,8 @@ export default function Footer() {
                 </li>
                
               </ul>
-            </div>
-            
-            <div className="col sm">
+            </div>          
+            <div className="col-sm-4 col-12">
             <h5 className="footerparahead text-white">
                 <b>You Are Visitor Number<br/><span className="f-30">5462132</span> </b>
                 <p className="footerparahead" id="iconsize">

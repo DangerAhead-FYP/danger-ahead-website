@@ -5,3 +5,9 @@ footer{
     margin-top: 20px;
     font-size: 35px;
 }
+@media(max-width:575px)
+{
+    .container{
+        text-align: center;
+    }
+}

@@ -13,21 +13,19 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
-          }
-        ],
-        "RoadData": [
+          },
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
       },
       {
         "id":1,
@@ -42,21 +40,19 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
-          }
-        ],
-        "RoadData": [
+          },
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
       },
       {
         "id":2,
@@ -71,23 +67,23 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
           }
-        ],
-        "RoadData": [
+        ,
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
       },
-      {"id":3,
+      {
+      "id":3,
       "x": 26.68866371524731, 
       "y": 88.43461424361574,
       "URL": "Possible_image_of_the_accident",
@@ -99,21 +95,21 @@
       "NumberOfDeaths": 2,
       "LevelOfAccident" : "Critical",
       "Mode": "Car-Car",
-      "SuggestionData": [
+      "SuggestionData": 
         {
           "MeasuresToPrevent": "Long description ",
           "ResponisbleFor": "Street Lights",
           "contact": 7001252846
         }
-      ],
-      "RoadData": [
+      ,
+      "RoadData": 
         {
-          "StreetsLight": "yes",
-          "TrafficLights": "No",
-          "TrafficOfficer": "No",
-          "RoadCondition": "very poor"
+          "StreetsLight": "Yes",
+            "TrafficLights": "No",
+            "TrafficOfficer": "No",
+            "RoadCondition": "Poor"
         }
-      ]
+      
     },
     {
       "id":4,
@@ -128,21 +124,21 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
           }
-        ],
-        "RoadData": [
+        ,
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
+        
     },
     {
       "id":5,
@@ -157,21 +153,21 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
           }
-        ],
-        "RoadData": [
+        ,
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
+        
     },
     {
       "id":6,
@@ -186,21 +182,21 @@
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
           }
-        ],
-        "RoadData": [
+        ,
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
+        
     },
     {
       "id":7,
@@ -208,28 +204,26 @@
         "y": 88.37616388253649,
         "URL": "Possible_image_of_the_accident",
         "title": "Car Accident",
-        "desc": "Description about the accident",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         "eventDate" :"24-02-23",
         "eventTime" : "12:08 PM",
         "NumberOfInjured": 4,
         "NumberOfDeaths": 2,
         "LevelOfAccident" : "Criticle",
         "Mode": "Car-Car",
-        "SuggestionData": [
+        "SuggestionData": 
           {
             "MeasuresToPrevent": "Long description ",
             "ResponisbleFor": "Street Lights",
             "contact": 7001252846
-          }
-        ],
-        "RoadData": [
+          },
+        "RoadData": 
           {
-            "StreetsLight": "yes",
+            "StreetsLight": "Yes",
             "TrafficLights": "No",
             "TrafficOfficer": "No",
-            "RoadCondition": "very poor"
+            "RoadCondition": "Poor"
           }
-        ]
     }
     ]
   }
