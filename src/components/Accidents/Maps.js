@@ -3,7 +3,7 @@ import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { MarkerF, InfoWindowF, InfoBoxF } from "@react-google-maps/api";
 import customMarker from "../../images/acci.png";
 import acci from "../../data.json"
-import mapStyles from "../../stylesheets/Accidents/mapStyles"
+import  "../../stylesheets/Accidents/mapStyles"
 import curr from "../../images/curr.png"
 import "../../stylesheets/Accidents/maps.css"
 import accident_img from "../../images/accident-img.png"
@@ -18,7 +18,10 @@ import "./Card_Accidents_Details";
 
 const containerStyle = {
     width: "100%",
-    height: "90vh",
+    height:" 92vh",
+    position: "absolute",
+    overflow: "hidden",
+    top: "60px"
 };
 
 // let center = {
@@ -82,6 +85,7 @@ const Maps = () => {
                     zoom={18}
                     onLoad={onLoad}
                     onUnmount={onUnmount}
+                    className="maps"
 
                 // options={{ styles: mapStyles, }}
                 >
@@ -150,7 +154,7 @@ const Maps = () => {
                 <></>
             )}
             {/* <Locate /> */}
-            <div>
+            {/* <div>
                 <button
                     className="curr"
                     // onClick={() => {
@@ -186,7 +190,7 @@ const Maps = () => {
                 >
                     <img className="currI" src={curr} sizes="20px" />
                 </button>
-            </div>
+            </div> */}
             {selectedAcciDet && 
                 <div className="card-accidents-details">
                 <img

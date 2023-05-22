@@ -1,0 +1,12 @@
+
+.pie-row{
+    background-color: #F2F2F3;
+    padding-bottom: 50px;
+}.pie{
+    height: 430px !important;
+    width: 430px !important;
+}
+.pie-acc-title{
+        margin: 50px;
+        text-align: center;
+}

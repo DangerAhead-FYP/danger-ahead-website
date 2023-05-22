@@ -1,10 +1,15 @@
 #death-reports{
     /* background: linear-gradient(rgba(255,255,255,90), rgba(255,255,255,.05)), url(../../images/deathReports.jpg) no-repeat center center fixed; */
-    -webkit-background-size: cover;
+    background-color: #F2F2F3;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height: 70%;
+    background-size: cover; */
+    padding : 120px 0 100px 0;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 50px;
 }
 #death-reports-stats li.title .red-btn-outline{
     font-size: 25px;
@@ -16,4 +21,13 @@
 }
 #death-reports-stats li.stats .icon{
     margin:  0 15px ;
+}
+.countdown{
+    margin-bottom: 50px;
+}
+.kpi-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
