@@ -1,21 +1,24 @@
 import React from 'react'
-import "../../stylesheets/Accidents/Card_Accidents.css"
+import "../../stylesheets/Accidents/Card_Accidents_Details.css"
 import accident_img from "../../images/accident-img.png"
 import { MdLocationOn } from 'react-icons/md';
 import { SlCalender } from 'react-icons/sl';
 import { AiOutlineClockCircle } from 'react-icons/ai';
+import { ImCross } from 'react-icons/im';
 
-export default function Card_Accidents(props) {
+export default function Card_Accidents_Details(props) {
   function details(){
     
   }
   return (
-    <div className="card-accidents">
+    <div className="card-accidents-details">
       <img
         className="card-img-top"
         src={accident_img}
         alt="Card image cap"
       />
+      <ImCross class="details-cross"/>
+        <h4></h4>
       <div className="card-body">
         <div className="row">
           <div className="col-7">
